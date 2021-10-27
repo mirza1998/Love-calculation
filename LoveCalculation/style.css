@@ -1,0 +1,91 @@
+body{
+    background-image: url("/Images/love-3061483__480.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crd-bdy_2 {
+  height: 500px;
+  width: 400px;
+  margin-top: 15%;
+  margin-left: 34%;
+}
+.love-body{
+  width: 65px !important;
+}
+input{
+  padding: 20px !important;
+  margin: 0;
+  font-size: 25px !important;
+  border-radius: 15px !important;
+  border: 1px solid #fff !important;
+  background: rgb(247,237,237);
+background: linear-gradient(90deg, rgba(247,237,237,1) 0%, rgba(237,11,11,1) 99%, rgba(0,212,255,1) 100%);
+outline: none;
+}
+.btn-lv {
+  margin-left: 40%;
+  padding: 9px 31px 14px 29px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #ff0;
+    background: linear-gradient(90deg, rgb(252, 133, 133) 0%, 
+rgba(237,11,11,1) 99%, rgb(248, 180, 148) 100%);
+outline: none;
+}
+.heart.heart-position {
+  margin-left: 45%;
+}
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 70px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 70px;
+    z-index: 1;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 70px;
+    position: absolute;
+    width: 70px;
+    z-index: -1;
+  }
+  
+  .heart:before {
+    top: -30px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 30px;
+    top: 0;
+  }
+span.valobasa {
+  position: relative;
+  z-index: 99999;
+  left: -70px;
+  bottom: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
